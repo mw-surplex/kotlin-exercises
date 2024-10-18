@@ -1,4 +1,4 @@
-package anki
+package effective.anki
 
 interface AnkiView {
     fun show(element: AnkiViewElement)
@@ -12,8 +12,8 @@ data class AnkiProgressBar(val size: Size): AnkiViewElement() {
 data class AnkiDialog(
     val title: String,
     val text: String,
-    val okButton: AnkiDialog.Button? = null,
-    val cancelButton: AnkiDialog.Button? = null,
+    val okButton: Button? = null,
+    val cancelButton: Button? = null,
     val onClose: (()->Unit)? = null
 ): AnkiViewElement() {
     data class Button(val text: String, val action: (()->Unit)? = null)

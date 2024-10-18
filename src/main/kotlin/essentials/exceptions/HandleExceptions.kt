@@ -1,4 +1,4 @@
-package essentials.exceptions.handleexceptions
+package essentials.exceptions
 
 fun main() {
     while (true) {

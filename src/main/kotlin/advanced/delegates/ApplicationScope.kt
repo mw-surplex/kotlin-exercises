@@ -3,7 +3,7 @@ package advanced.delegates.applicationscope
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.SupervisorJob
-import org.junit.Test
+//import org.junit.Test
 import kotlin.coroutines.EmptyCoroutineContext
 
 // TODO

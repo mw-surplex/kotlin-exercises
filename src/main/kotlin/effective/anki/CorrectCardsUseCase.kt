@@ -1,6 +1,10 @@
-package anki
+package effective.anki
 
-import anki.AnkiProgressBar.Size.Small
+import effective.anki.AnkiProgressBar.Size.Small
+import effective.anki.AnkiCardsRepository
+import effective.anki.AnkiDialog
+import effective.anki.AnkiProgressBar
+import effective.anki.AnkiView
 
 class CorrectCardsUseCase(
     private val view: AnkiView,

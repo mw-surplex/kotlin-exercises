@@ -1,9 +1,9 @@
-package anki.fakes
+package effective.anki.fakes
 
-import anki.AnkiApiException
-import anki.AnkiCard
-import anki.AnkiNetworkRepository
-import anki.AnkiUser
+import effective.anki.AnkiApiException
+import effective.anki.AnkiCard
+import effective.anki.AnkiNetworkRepository
+import effective.anki.AnkiUser
 
 class FailingAnkiNetworkRepository(
     private val exception: AnkiApiException

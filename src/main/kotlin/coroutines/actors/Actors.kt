@@ -1,4 +1,4 @@
-package actors
+package coroutines.actors
 
 import kotlinx.coroutines.*
 import kotlinx.coroutines.channels.SendChannel

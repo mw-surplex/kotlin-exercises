@@ -1,7 +1,7 @@
-package anki.fakes
+package effective.anki.fakes
 
-import anki.AnkiCard
-import anki.AnkiCardsRepository
+import effective.anki.AnkiCard
+import effective.anki.AnkiCardsRepository
 import kotlinx.coroutines.delay
 
 class InMemoryAnkiCardsRepository : AnkiCardsRepository {

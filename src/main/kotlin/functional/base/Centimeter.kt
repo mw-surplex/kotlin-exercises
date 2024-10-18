@@ -1,4 +1,4 @@
-package functional.base.centimeter
+package functional.base
 
 import kotlin.math.abs
 

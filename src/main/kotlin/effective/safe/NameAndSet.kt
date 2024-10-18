@@ -1,4 +1,4 @@
-package effective.safe.nameandset
+package effective.safe
 
 fun main() {
     val set = mutableSetOf<Name>()

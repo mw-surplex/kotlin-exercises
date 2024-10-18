@@ -1,8 +1,8 @@
-package anki.fakes
+package effective.anki.fakes
 
-import anki.AnkiCard
-import anki.AnkiNetworkRepository
-import anki.AnkiUser
+import effective.anki.AnkiCard
+import effective.anki.AnkiNetworkRepository
+import effective.anki.AnkiUser
 
 class InMemoryAnkiNetworkRepository(
     private val cards: List<AnkiCard> = emptyList(),

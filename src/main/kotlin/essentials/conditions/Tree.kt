@@ -1,4 +1,4 @@
-package essentials.tree
+package essentials.conditions
 
 // TODO: Clean it up
 abstract class Tree {

@@ -1,7 +1,7 @@
-package anki.fakes
+package effective.anki.fakes
 
-import anki.AnkiView
-import anki.AnkiViewElement
+import effective.anki.AnkiView
+import effective.anki.AnkiViewElement
 
 class FakeAnkiView : AnkiView {
     var visibleElements = listOf<AnkiViewElement>()

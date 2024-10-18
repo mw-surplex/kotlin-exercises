@@ -1,6 +1,7 @@
-package anki
+package effective.anki
 
-import anki.AnkiProgressBar.Size.Small
+import effective.anki.*
+import effective.anki.AnkiProgressBar.Size.Small
 
 class SynchronizeCardsUseCase(
     private val view: AnkiView,

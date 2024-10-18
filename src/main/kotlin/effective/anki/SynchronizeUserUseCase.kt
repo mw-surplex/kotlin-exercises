@@ -1,4 +1,6 @@
-package anki
+package effective.anki
+
+import effective.anki.*
 
 class SynchronizeUserUseCase(
     private val view: AnkiView,

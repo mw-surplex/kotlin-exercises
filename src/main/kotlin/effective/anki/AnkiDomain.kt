@@ -1,4 +1,4 @@
-package anki
+package effective.anki
 
 interface AnkiNetworkRepository {
     @Throws(AnkiApiException::class)

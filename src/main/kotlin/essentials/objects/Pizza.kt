@@ -1,7 +1,4 @@
-package essentials.objects.pizza
-
-import org.junit.Test
-import kotlin.test.assertEquals
+package essentials.objects
 
 class Pizza(
     val toppings: List<String>,
@@ -14,18 +11,4 @@ fun main() {
     //println(hawaiian.toppings) // [ham, pineapple]
     //val margherita = Pizza.margherita()
     //println(margherita.toppings) // [tomato, mozzarella]
-}
-
-class PizzaTest {
-//    @Test
-//    fun testHawaiian() {
-//        val expected = listOf("ham", "pineapple")
-//        assertEquals(expected, Pizza.hawaiian().toppings)
-//    }
-//
-//    @Test
-//    fun testMargherita() {
-//        val expected = listOf("tomato", "mozzarella")
-//        assertEquals(expected, Pizza.margherita().toppings)
-//    }
 }
