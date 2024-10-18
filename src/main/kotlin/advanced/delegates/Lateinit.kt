@@ -1,4 +1,4 @@
-package advanced.delegates.lateinit
+package advanced.delegates
 
 import kotlin.properties.Delegates
 import kotlin.properties.ReadWriteProperty

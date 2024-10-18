@@ -1,19 +1,21 @@
 package essentials.enums
 
-//class DayOfWeekTest : FreeSpec({
-//    "String.length" - {
-//        "should return the length of the string" {
-//            "sammy".length shouldBe 5
-//            "".length shouldBe 0
-//        }
-//    }
-//    "containers can be nested as deep as you want" - {
-//        "and so we nest another container" - {
-//            "yet another container" - {
-//                "finally a real test" {
-//                    1 + 1 shouldBe 2
-//                }
-//            }
-//        }
-//    }
-//})
+import org.junit.Test
+import kotlin.test.assertEquals
+
+class DayOfWeekTest {
+
+    @Test
+    fun testMonday() {
+        val day = DayOfWeek.MONDAY
+        assertEquals("monday", day.dayName)
+        assertEquals(DayOfWeek.TUESDAY, day.nextDay())
+    }
+
+    @Test
+    fun testTuesday() {
+        val day = DayOfWeek.TUESDAY
+        assertEquals("tuesday", day.dayName)
+        assertEquals(DayOfWeek.WEDNESDAY, day.nextDay())
+    }
+}

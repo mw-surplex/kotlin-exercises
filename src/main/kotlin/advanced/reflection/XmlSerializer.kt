@@ -1,4 +1,4 @@
-package advanced.reflection.xmlserializer
+package advanced.reflection
 
 import kotlin.reflect.KClass
 

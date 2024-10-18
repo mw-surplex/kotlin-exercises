@@ -1,4 +1,4 @@
-package advanced.delegates.lateinit
+package advanced.delegates
 
 import org.junit.Test
 import kotlin.properties.Delegates

@@ -1,6 +1,4 @@
-package essentials.enums.dayofweek
-
-// TODO
+package essentials.enums
 
 fun main() {
     val friday: DayOfWeek = DayOfWeek.FRIDAY
@@ -9,8 +7,6 @@ fun main() {
     val saturday: DayOfWeek = friday.nextDay()
     println(saturday.dayName) // Saturday
     println(saturday.isWeekend) // true
-
-
 }
 
 enum class DayOfWeek(val isWeekend: Boolean, val dayName: String) {
